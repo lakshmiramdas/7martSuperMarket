@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 14.033 s <<< FAILURE! - in TestSuite
+testscript.LoginPageTest.verifyUsercanloginWithInValidCredentials  Time elapsed: 0.776 s  <<< FAILURE!
+java.lang.AssertionError: expected [Dashbord | 7mart supermarket] but found [Login | 7rmart supermarket]
+	at testscript.LoginPageTest.verifyUsercanloginWithInValidCredentials(LoginPageTest.java:25)
+

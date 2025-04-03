@@ -1,0 +1,13 @@
+testscript\ResetUserPageTest.class
+testscript\SearchListCategoryPageTest.class
+generateReport\Listeners.class
+testscript\Base.class
+testscript\HomePageTest.class
+testscript\TestDemoSubCategoryPage.class
+testscript\AddNewUserPageTest.class
+testscript\EnterNewsInformationPageTest.class
+testscript\AddCategoryPageTest.class
+testscript\LoginPageTest.class
+testscript\SearchManageNewsPageTest.class
+testscript\SearchUserPageTest.class
+retry\RetryClass.class

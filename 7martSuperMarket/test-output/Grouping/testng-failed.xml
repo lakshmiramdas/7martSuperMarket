@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Grouping]" guice-stage="DEVELOPMENT">
+  <parameter name="browsers" value="chrome"/>
+  <listeners>
+    <listener class-name="generateReport.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="GroupingTest(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testscript.LoginPageTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="verifyUsercanloginWithInValidCredentials"/>
+        </methods>
+      </class> <!-- testscript.LoginPageTest -->
+    </classes>
+  </test> <!-- GroupingTest(failed) -->
+</suite> <!-- Failed suite [Grouping] -->
